@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+        <rect width="1200" height="750" fill="#070707"/>
+        <rect x="180" y="125" width="840" height="500" fill="#f2f2f2"/>
+        <rect x="240" y="185" width="300" height="260" fill="#111"/>
+        <circle cx="760" cy="315" r="115" fill="#111"/>
+        <path d="M240 510 H900" stroke="#111" stroke-width="16"/>
+        <path d="M240 555 H720" stroke="#555" stroke-width="8"/>
+        
+    <text x="70" y="680" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="34" letter-spacing="6">GRAPHIC DESIGN</text>
+    <text x="72" y="716" fill="#aaa" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="3">IDENTITY • CAMPAIGNS • PRINT</text>
+    </svg>

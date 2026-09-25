@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+        <defs><radialGradient id="g"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset=".35" stop-color="#aaa" stop-opacity=".35"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient></defs>
+        <rect width="1200" height="750" fill="#080808"/><circle cx="850" cy="300" r="360" fill="url(#g)"/>
+        <path d="M0 600 C220 420 340 700 540 500 S860 120 1200 260" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="3"/>
+        <path d="M0 650 C240 470 390 730 590 540 S900 190 1200 330" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="12"/>
+        <circle cx="850" cy="300" r="105" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="2"/>
+        
+    <text x="70" y="680" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="34" letter-spacing="6">AI VIDEO</text>
+    <text x="72" y="716" fill="#aaa" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="3">FUTURE VISUAL STORYTELLING</text>
+    </svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+        <rect width="1200" height="750" fill="#090909"/>
+        <g fill="none" stroke="#fff"><rect x="180" y="150" width="600" height="360" rx="10" stroke-opacity=".18" stroke-width="2"/>
+        <path d="M250 450 L420 260 L540 380 L700 180 L850 430" stroke-opacity=".7" stroke-width="4"/>
+        <circle cx="420" cy="260" r="18" fill="#fff" fill-opacity=".85" stroke="none"/><circle cx="700" cy="180" r="18" fill="#fff" fill-opacity=".35" stroke="none"/>
+        <path d="M100 580 H1050" stroke-opacity=".15"/><path d="M100 610 H850" stroke-opacity=".08"/></g>
+        
+    <text x="70" y="680" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="34" letter-spacing="6">ANIMATION</text>
+    <text x="72" y="716" fill="#aaa" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="3">MOTION • 2D • 3D</text>
+    </svg>

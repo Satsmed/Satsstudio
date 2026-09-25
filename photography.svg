@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+        <rect width="1200" height="750" fill="#080808"/>
+        <rect x="230" y="150" width="740" height="430" rx="20" fill="#111" stroke="#555" stroke-width="3"/>
+        <circle cx="600" cy="365" r="145" fill="#080808" stroke="#eee" stroke-opacity=".75" stroke-width="6"/>
+        <circle cx="600" cy="365" r="88" fill="none" stroke="#777" stroke-width="2"/>
+        <rect x="320" y="105" width="150" height="55" rx="12" fill="#222" stroke="#555"/>
+        
+    <text x="70" y="680" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="34" letter-spacing="6">PHOTOGRAPHY</text>
+    <text x="72" y="716" fill="#aaa" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="3">PRODUCT • PEOPLE • EVENTS</text>
+    </svg>
