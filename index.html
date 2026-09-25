@@ -1,95 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SatsStudio — AI videos, animation, video production, photography and graphic design. A brand of Satsmed Enterprises LLP.">
-  <title>SatsStudio | Ideas. Visualized. Created.</title>
-  <style>
-    :root{--bg:#050505;--panel:#0d0d0d;--line:#292929;--text:#f5f5f5;--muted:#a4a4a4}
-    *{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth}
-    body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
-    a{color:inherit;text-decoration:none}
-    .wrap{max-width:1280px;margin:auto;padding:0 28px}
-    header{position:sticky;top:0;z-index:20;background:rgba(5,5,5,.94);backdrop-filter:blur(12px);border-bottom:1px solid #151515}
-    nav{height:78px;display:flex;align-items:center;justify-content:space-between}
-    .logo{font-size:30px;font-weight:700;letter-spacing:-1.5px}.logo span{font-weight:300}
-    .brand-sub{font-size:8px;letter-spacing:2px;color:#aaa;margin-top:-5px}
-    .links{display:flex;gap:28px;font-size:12px;letter-spacing:1px}.links a:hover{color:#bbb}
-    .btn{border:1px solid #fff;border-radius:30px;padding:12px 20px;display:inline-block;font-size:12px;letter-spacing:1px;transition:.25s}
-    .btn:hover{background:#fff;color:#000}
-    .hero{min-height:650px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;border-bottom:1px solid var(--line)}
-    .eyebrow{text-transform:uppercase;letter-spacing:5px;font-size:11px;color:#bbb;margin-bottom:28px}
-    h1{font-size:clamp(50px,7vw,92px);line-height:.95;font-weight:300;letter-spacing:-4px}
-    h1 strong{font-weight:700}.hero p{max-width:620px;color:#bbb;font-size:18px;margin:28px 0}
-    .hero-art{min-height:520px;background:linear-gradient(135deg,#151515,#050505);display:grid;place-items:center;border-left:1px solid var(--line)}
-    .camera{font-size:150px;filter:grayscale(1);opacity:.75}
-    section{padding:85px 0;border-bottom:1px solid var(--line)}
-    .section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:32px}
-    .section-title{text-transform:uppercase;letter-spacing:4px;font-size:12px;color:#ccc}
-    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-    .card{background:var(--panel);border:1px solid var(--line);padding:30px;min-height:190px;transition:.25s}
-    .card:hover{transform:translateY(-4px);border-color:#666}.icon{font-size:30px;margin-bottom:25px}
-    .card h3{font-size:20px;margin-bottom:9px}.card p{font-size:13px;color:#999}
-    .work{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-    .work-item{aspect-ratio:16/10;background:linear-gradient(135deg,#222,#090909);border:1px solid var(--line);display:flex;align-items:end;padding:18px;font-size:12px;letter-spacing:2px;text-transform:uppercase}
-    .about{display:grid;grid-template-columns:1fr 1fr;gap:70px}.about h2{font-size:52px;line-height:1;letter-spacing:-2px;font-weight:300}
-    .about p{color:#aaa;margin-bottom:25px}.stats{display:flex;gap:45px;margin-top:35px}.stat strong{display:block;font-size:34px}.stat span{font-size:11px;color:#888;text-transform:uppercase;letter-spacing:1px}
-    .contact{text-align:center}.contact h2{font-size:clamp(42px,6vw,75px);font-weight:300;letter-spacing:-3px;margin:12px 0 25px}.contact p{color:#999;margin-bottom:30px}
-    footer{padding:30px 0;color:#777;font-size:11px;display:flex;justify-content:space-between}
-    @media(max-width:850px){.links{display:none}.hero{grid-template-columns:1fr}.hero-art{min-height:260px;border-left:0}.services,.work{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr;gap:35px}}
-    @media(max-width:560px){.wrap{padding:0 18px}.hero{min-height:auto;padding:75px 0}.hero-art{min-height:210px}.services,.work{grid-template-columns:1fr}.about h2{font-size:42px}.stats{gap:22px;flex-wrap:wrap}footer{display:block}footer div+div{margin-top:10px}}
-  </style>
-</head>
-<body>
-<header><div class="wrap"><nav>
-  <div><a class="logo" href="#">Sats<span>Studio</span></a><div class="brand-sub">A BRAND OF SATSMED ENTERPRISES LLP</div></div>
-  <div class="links"><a href="#about">ABOUT</a><a href="#services">SERVICES</a><a href="#work">PORTFOLIO</a><a href="#contact">CONTACT</a></div>
-  <a class="btn" href="https://wa.me/919995044687" target="_blank" rel="noopener">WHATSAPP / GET A QUOTE</a>
-</nav></div></header>
-
-<main>
-<section class="hero"><div class="wrap" style="padding-right:40px">
-  <div class="eyebrow">Ideas. Visualized. Created.</div>
-  <h1>Your Story<br>Our <strong>Creativity</strong></h1>
-  <p>AI Videos, Animation, Video Shoots, Photography and Graphic Design — all under one creative studio.</p>
-  <a class="btn" href="#work">WATCH SHOWREEL →</a>
-</div><div class="hero-art"><div class="camera">◉</div></div></section>
-
-<section id="services"><div class="wrap">
-  <div class="section-head"><div class="section-title">Our Services</div><div class="section-title">Creative solutions for a visual world</div></div>
-  <div class="services">
-    <article class="card"><div class="icon">✦</div><h3>AI Video Creation</h3><p>Transform ideas into engaging AI-powered videos for brands, campaigns and communication.</p></article>
-    <article class="card"><div class="icon">▷</div><h3>Animated Videos</h3><p>2D, 3D and motion-driven animation designed to explain, promote and entertain.</p></article>
-    <article class="card"><div class="icon">▣</div><h3>Video Production</h3><p>Corporate videos, commercials, events, interviews and professional video shoots.</p></article>
-    <article class="card"><div class="icon">◎</div><h3>Photography</h3><p>Product, corporate, event and lifestyle photography with a strong visual identity.</p></article>
-    <article class="card"><div class="icon">✎</div><h3>Graphic Design</h3><p>Branding, brochures, posters, social media creatives and campaign design.</p></article>
-    <article class="card"><div class="icon">▦</div><h3>Social Media Content</h3><p>Scroll-stopping visual content created for today's digital platforms.</p></article>
-  </div>
-</div></section>
-
-<section id="work"><div class="wrap">
-  <div class="section-head"><div class="section-title">Our Work</div><div class="section-title">Selected Projects</div></div>
-  <div class="work">
-    <div class="work-item">AI Video</div><div class="work-item">Animation</div><div class="work-item">Video Production</div>
-    <div class="work-item">Photography</div><div class="work-item">Graphic Design</div><div class="work-item">Social Media</div>
-  </div>
-</div></section>
-
-<section id="about"><div class="wrap about">
-  <div><div class="section-title">About SatsStudio</div><h2>A Creative Studio for the Next Generation.</h2></div>
-  <div><p>SatsStudio is a digital services brand of Satsmed Enterprises LLP, focused on creating impactful visual content using creativity, technology and storytelling.</p><p>From AI and animation to professional video and photography, we help brands communicate better, look stronger and grow faster.</p><a class="btn" href="#contact">KNOW MORE →</a>
-    <div class="stats"><div class="stat"><strong>100+</strong><span>Projects</span></div><div class="stat"><strong>50+</strong><span>Clients</span></div><div class="stat"><strong>5+</strong><span>Services</span></div></div>
-  </div>
-</div></section>
-
-<section id="contact" class="contact"><div class="wrap">
-  <div class="section-title">Let's Create Together</div><h2>Have a Project in Mind?</h2><p>Tell us what you have in mind. Let's turn the idea into something people remember.</p><p style="margin-top:18px;color:#ccc">WhatsApp: <a href="https://wa.me/919995044687" target="_blank" rel="noopener">+91 99950 44687</a> · Email: <a href="mailto:Info@satsstudio.com">Info@satsstudio.com</a></p><p style="margin-top:10px;color:#777">TC - No. 12/3517, First Floor, Bethany Shopping Complex, Nalanchira, Thiruvananthapuram - 695015</p>
-  <a class="btn" href="https://wa.me/919995044687" target="_blank" rel="noopener">WHATSAPP / SEND AN ENQUIRY →</a>
-</div></section>
-</main>
-
-<footer><div>© 2026 SatsStudio. All rights reserved.</div><div>A brand of Satsmed Enterprises LLP</div></footer>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="SatsStudio — AI, animation, video production, photography and graphic design."><title>Ideas. Visualized. Created. | SatsStudio</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><div class="wrap nav"><a href="index.html"><div class="brand">Sats<span>Studio</span></div><div class="sub">A BRAND OF SATSMED ENTERPRISES LLP</div></a><nav class="navlinks"><a href="index.html">HOME</a><a class="" href="about.html">ABOUT</a><a class="" href="services.html">SERVICES</a><a class="" href="portfolio.html">PORTFOLIO</a><a class="" href="contact.html">CONTACT</a></nav><a class="btn" target="_blank" rel="noopener" href="https://wa.me/919995044687">WHATSAPP</a></div></header>
+<main><section class="hero"><div class="wrap"><div class="eyebrow">Ideas. Visualized. Created.</div><h1>Your Story<br>Our <b>Creativity.</b></h1><p>AI Videos, Animation, Video Production, Photography and Graphic Design — crafted for brands that want to be seen differently.</p><div class="hero-actions"><a class="btn fill" href="portfolio.html">EXPLORE OUR WORK →</a><a class="btn" href="contact.html">START A PROJECT</a></div></div><div class="hero-art"></div></section>
+<section><div class="wrap"><div class="head"><h2>What We Create</h2><p>Creative services powered by technology, visual storytelling and design.</p></div><div class="grid6">
+<a class="card" href="services.html#ai"><span class="num">01</span><h3>AI Video Creation</h3><p>Concepts transformed into cinematic AI-powered visual stories.</p><span class="more">DISCOVER →</span></a>
+<a class="card" href="services.html#animation"><span class="num">02</span><h3>Animated Videos</h3><p>2D, 3D and motion graphics built to explain and engage.</p><span class="more">DISCOVER →</span></a>
+<a class="card" href="services.html#production"><span class="num">03</span><h3>Video Production</h3><p>Corporate, commercial, event and branded video production.</p><span class="more">DISCOVER →</span></a>
+<a class="card" href="services.html#photo"><span class="num">04</span><h3>Photography</h3><p>Product, corporate, event and lifestyle photography.</p><span class="more">DISCOVER →</span></a>
+<a class="card" href="services.html#design"><span class="num">05</span><h3>Graphic Design</h3><p>Brand identities, campaigns, social creatives and print design.</p><span class="more">DISCOVER →</span></a>
+<a class="card" href="services.html#social"><span class="num">06</span><h3>Social Media Content</h3><p>High-impact content designed for today's digital platforms.</p><span class="more">DISCOVER →</span></a>
+</div></div></section>
+<section><div class="wrap"><div class="head"><h2>Selected Work</h2><p>A glimpse into the visual worlds we can create.</p></div><div class="visualgrid"><a class="tile" href="portfolio.html"><span>AI / Future Visuals</span></a><a class="tile" href="portfolio.html"><span>Animation</span></a><a class="tile" href="portfolio.html"><span>Commercial Film</span></a><a class="tile" href="portfolio.html"><span>Photography</span></a><a class="tile" href="portfolio.html"><span>Brand Design</span></a><a class="tile" href="portfolio.html"><span>Social Campaigns</span></a></div></div></section>
+<section><div class="wrap split"><div><div class="kicker">About SatsStudio</div><h2>A creative studio for the next generation.</h2></div><div><p>SatsStudio is a digital services brand of Satsmed Enterprises LLP, focused on creating impactful visual content through creativity, technology and storytelling.</p><p>We combine AI, animation, production, photography and graphic design to help businesses communicate better and build memorable brands.</p><a class="btn" href="about.html">KNOW MORE →</a><div class="stats"><div><strong>100+</strong><span>Projects</span></div><div><strong>50+</strong><span>Clients</span></div><div><strong>6</strong><span>Core Services</span></div></div></div></div></section>
+<section><div class="wrap" style="text-align:center"><div class="kicker">Let's create together</div><h2 style="font-size:clamp(42px,6vw,75px);font-weight:300;letter-spacing:-3px;margin:14px 0 25px">Have a project in mind?</h2><a class="btn fill" href="contact.html">SEND AN ENQUIRY →</a></div></section></main>
+<footer><div>© 2026 SatsStudio. All rights reserved.</div><div>A brand of Satsmed Enterprises LLP · Thiruvananthapuram</div></footer></body></html>
